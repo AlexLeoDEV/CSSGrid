@@ -1,0 +1,142 @@
+header {
+  display: block;
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  color: #511abc; }
+
+.page-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  color: #1abc9c; }
+
+.img-a {
+  background-color: blueviolet;
+  grid-area: breakfast; }
+
+.img-b {
+  background-color: blue;
+  grid-area: burger; }
+
+.img-c {
+  background-color: greenyellow;
+  grid-area: camera; }
+
+.img-d {
+  background-color: coral;
+  grid-area: morning; }
+
+.img-e {
+  background-color: aqua;
+  grid-area: hat; }
+
+.img-f {
+  background-color: green;
+  grid-area: honey; }
+
+.img-g {
+  background-color: cadetblue;
+  grid-area: vegetables; }
+
+.colored-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+  grid-template-areas: "breakfast breakfast burger" "camera morning hat" "honey vegetables vegetables"; }
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.img-1 {
+  grid-area: breakfast; }
+
+.img-2 {
+  grid-area: burgers; }
+
+.img-3 {
+  grid-area: camera; }
+
+.img-4 {
+  grid-area: morning; }
+
+.img-5 {
+  grid-area: hats; }
+
+.img-6 {
+  grid-area: honey; }
+
+.img-7 {
+  grid-area: vegetables; }
+
+.img-8 {
+  grid-area: plant; }
+
+.img-9 {
+  grid-area: mushroom; }
+
+.img-10 {
+  grid-area: olive; }
+
+.img-11 {
+  grid-area: star; }
+
+.img-12 {
+  grid-area: bike; }
+
+.img-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "breakfast breakfast  burgers" "camera morning hats" "honey vegetables vegetables" "plant mushroom olive" "star star bike"; }
+
+.grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, calc(100%/3));
+  grid-template-rows: repeat(3, 100px); }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 350px;
+  height: auto;
+  grid-column: 2;
+  grid-row: 2; }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.card-container {
+  padding: 16px; }
+
+.card-title {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: .0125em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-family: Roboto, sans-serif; }
+
+.card-text {
+  font-family: Roboto, sans-serif;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  letter-spacing: .0178571429em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  opacity: .6; }
+
+/*# sourceMappingURL=main.css.map */
