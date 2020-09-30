@@ -123,10 +123,14 @@ a:hover {
 }
 
 .img-wrapper {
+  width: 50%;
+  margin-left: 25%;
+  background: #946c42;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
   grid-template-areas:
-    "breakfast breakfast  burgers"
+    "breakfast breakfast burgers"
     "camera morning hats"
     "honey vegetables vegetables"
     "plant mushroom olive"
@@ -137,17 +141,18 @@ a:hover {
 .grid {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(3, calc(100%/3));
-  grid-template-rows: repeat(3, 100px);
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  height: 100%;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 350px;
-  height: auto;
+  height: 90px;
   grid-column: 2;
-  grid-row: 2;
 }
 
 .card:hover {
