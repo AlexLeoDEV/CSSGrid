@@ -57,10 +57,13 @@ a:hover {
   grid-area: vegetables;
 }
 
+.colored-grid > div {
+  height: 200px;
+}
+
 .colored-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 300px;
   grid-template-areas:
     "breakfast breakfast burger"
     "camera morning hat"
@@ -143,7 +146,6 @@ a:hover {
   justify-items: center;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 10px;
   height: 100%;
 }
 
@@ -178,7 +180,7 @@ a:hover {
   font-size: .875rem;
   line-height: 1.25rem;
   font-weight: 400;
-  letter-spacing: .0178571429em;
+  letter-spacing: .017em;
   text-decoration: inherit;
   text-transform: inherit;
   opacity: .6;
